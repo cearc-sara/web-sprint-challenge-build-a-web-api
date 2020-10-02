@@ -25,7 +25,7 @@ server.use("/api/actions", actionRouter)
 server.use("/api/projects", projectRouter)
 
 server.get("/", (req, res) => {
-    res.send(`<h2>Sprint Challenge API<h2>`)
+    res.send(`<h2>Sprint Challenge API, everything is working!<h2>`)
 })
 
 module.exports = server
